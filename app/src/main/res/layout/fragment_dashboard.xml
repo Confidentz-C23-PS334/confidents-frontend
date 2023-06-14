@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="dashboardVM" type="com.confidents.app.modules.dashboard.data.viewmodel.DashboardVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackselamatdatang"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_45pxv" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearColumnselamatdatang"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.core.widget.NestedScrollView
+                android:clipToPadding="false"
+                android:fillViewport="true"
+                android:id="@+id/scrollViewScrollview"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:layout_width="match_parent">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearDashboard"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtSelamatDatang"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_21pxh"
+                        android:layout_marginStart="@dimen/_21pxh"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{dashboardVM.dashboardModel.txtSelamatDatang}"
+                        style="@style/txtPoppinsregular15" tools:text="@string/lbl_selamat_datang"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtFulanbinFulan"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_21pxh"
+                        android:layout_marginStart="@dimen/_21pxh"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{dashboardVM.dashboardModel.txtFulanbinFulan}"
+                        style="@style/txtPoppinssemibold32" tools:text="@string/lbl_fulan_bin_fulan"/>
+                    <EditText
+                        android:background="@drawable/rectangle_bg_gray_50_border_bluegray_50_radius_8"
+                        android:drawablePadding="@dimen/_13pxh"
+                        android:drawableStart="@drawable/img_edit"
+                        android:ellipsize="end"
+                        android:hint="@string/msg_search_doctor"
+                        android:id="@+id/etSearch"
+                        android:inputType="text"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_19pxh"
+                        android:layout_marginStart="@dimen/_19pxh"
+                        android:layout_marginTop="@dimen/_21pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_10pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_18pxh"
+                        android:paddingTop="@dimen/_14pxv"
+                        android:singleLine="true"
+                        android:text="@={dashboardVM.dashboardModel.etSearchValue}"
+                        android:textColorHint="@color/gray_500"
+                        style="@style/etSolidRoundedOutline" tools:ignore="Autofill"/>
+                    <LinearLayout android:gravity="center_horizontal"
+                        android:id="@+id/linearOfferbanner"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_19pxh"
+                        android:layout_marginStart="@dimen/_19pxh"
+                        android:layout_marginTop="@dimen/_18pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylebluegray_50cornerRadius">
+                        <LinearLayout android:gravity="start"
+                            android:id="@+id/linearOfferbannergr"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="@dimen/_21pxv"
+                            android:layout_marginEnd="@dimen/_17pxh"
+                            android:layout_marginStart="@dimen/_17pxh"
+                            android:layout_marginTop="@dimen/_23pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical" style="@style/groupStylecornerRadius">
+                            <TextView
+                                android:gravity="center_horizontal"
+                                android:id="@+id/txtEarlyprotectio"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/_3pxh"
+                                android:layout_width="match_parent"
+                                android:lineSpacingExtra="@dimen/_5pxh"
+                                android:text="@{dashboardVM.dashboardModel.txtEarlyprotectio}"
+                                style="@style/txtIntersemibold20" tools:text="@string/msg_keep_your_teeth"/>
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:id="@+id/btnLearnMore"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_10pxh"
+                                android:layout_marginTop="@dimen/_3pxv"
+                                android:layout_width="match_parent"
+                                android:paddingBottom="@dimen/_9pxv"
+                                android:paddingEnd="@dimen/_21pxh"
+                                android:paddingStart="@dimen/_21pxh"
+                                android:paddingTop="@dimen/_9pxv"
+                                android:singleLine="true"
+                                android:text="@string/lbl_learn_more"
+                                android:textAllCaps="false"
+                                style="@style/btnSolidRounded" tools:text="@string/lbl_learn_more"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearTop"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_19pxh"
+                        android:layout_marginStart="@dimen/_19pxh"
+                        android:layout_marginTop="@dimen/_38pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtTopDoctor"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.76"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{dashboardVM.dashboardModel.txtTopDoctor}"
+                            style="@style/txtIntersemibold16" tools:text="@string/lbl_nearest_doctor"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtSeeall"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_2pxv"
+                            android:layout_marginStart="@dimen/_178pxh"
+                            android:layout_marginTop="@dimen/_2pxv"
+                            android:layout_weight="0.24"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{dashboardVM.dashboardModel.txtSeeall}"
+                            style="@style/txtInterregular12_1" tools:text="@string/lbl_see_all"/>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:gravity="end"
+                        android:id="@+id/recyclerDoctor"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="false"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_4pxh}" tools:itemCount="3" tools:listitem="@layout/row_doctor"/>
+                    <LinearLayout android:id="@+id/linearHealt"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_28pxv"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtHealtarticle"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.58"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{dashboardVM.dashboardModel.txtHealtarticle}"
+                            style="@style/txtIntersemibold16" tools:text="@string/lbl_article"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtSeeallOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:layout_marginStart="@dimen/_242pxh"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_weight="0.42"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{dashboardVM.dashboardModel.txtSeeallOne}"
+                            style="@style/txtInterregular12_1" tools:text="@string/lbl_see_all"/>
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:gravity="center_horizontal"
+                        android:id="@+id/recyclerListassortmentofc"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_15pxv"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="false"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_7pxh}" tools:itemCount="3" tools:listitem="@layout/row_listassortmentofc"/>
+                    <View android:id="@+id/viewGroup10205"
+                        android:layout_height="@dimen/_57pxv"
+                        android:layout_marginTop="@dimen/_8pxv" android:layout_width="@dimen/_375pxh"/>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:backgroundTint="@color/white_A700"
+            android:id="@+id/floatingBtnFloatingactionbutton"
+            android:layout_gravity="bottom|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginEnd="@dimen/_161pxh"
+            android:layout_marginStart="@dimen/_161pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="wrap_content"
+            app:fabCustomSize="@dimen/_52pxh"
+            app:srcCompat="@drawable/img_camera" app:tint="@color/cyan_300"/>
+    </FrameLayout>
+</layout>

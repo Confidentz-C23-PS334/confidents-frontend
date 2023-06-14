@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">confidents</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_nearest_doctor">Nearest Doctor</string>
+<string name="msg_comparing_the">Comparing the 
+AstraZeneca and 
+Sinovac COVID-19 
+Vaccines</string>
+<string name="lbl_next">Next</string>
+<string name="msg_don_t_have_an_a">Don\u2019t have an account?  Sign up.</string>
+<string name="msg_the_horror_of_t">The Horror Of The 
+Second Wave Of 
+COVID-19 
+pandemic</string>
+<string name="msg_jl_adi_sumarmo">Jl. Adi Sumarmo No.132, Dusun I, Singopuran, Kec. Kartasura, Kabupaten Sukoharjo, Jawa Tengah 57165</string>
+<string name="msg_toothbrush_sche">Toothbrush Schedule</string>
+<string name="lbl_jun_12_2021">Jun 12, 2021</string>
+<string name="lbl_about">About</string>
+<string name="msg_drg_stefi_jess">Drg. Stefi Jessi</string>
+<string name="lbl_home">Home</string>
+<string name="msg_create_your_acc">Create Your Account</string>
+<string name="lbl_first_name">First Name</string>
+<string name="lbl_description">Description</string>
+<string name="lbl_select_one">--Select One--</string>
+<string name="lbl_learn_more">Learn more</string>
+<string name="msg_what_is_minimum">What Is Minimum Order Value?</string>
+<string name="lbl_sign_in">Sign In</string>
+<string name="lbl_jun_10_20212">Jun 10, 2021</string>
+<string name="msg_have_an_account">Have an account? Sign In</string>
+<string name="lbl_reminder">Reminder</string>
+<string name="msg_forgot_password">Forgot Password?</string>
+<string name="msg_enter_mobile_nu">Enter Mobile Number</string>
+<string name="lbl_article">Article</string>
+<string name="msg_keep_your_teeth">Keep your teeth healthy</string>
+<string name="lbl_caries">Caries</string>
+<string name="msg_sign_in_with_go">Sign in with Google</string>
+<string name="msg_where_do_you_de">Where Do You Deliver?</string>
+<string name="msg_placing_an_orde">Placing an order is very simple.  Just register on the SG Grocery website/mobile application, pick your choice of products with a wide range of product selection in the online store and proceed to checkout or just call customer care and place an order. i.e. 1800-123-1947 </string>
+<string name="lbl_articles">Articles</string>
+<string name="msg_popular_article">Popular Articles</string>
+<string name="lbl_email_id">Email Id</string>
+<string name="lbl_upcoming">Upcoming</string>
+<string name="msg_or_continue_wit">Or continue with</string>
+<string name="lbl_surakarta">Surakarta</string>
+<string name="msg_trending_articl">Trending Articles</string>
+<string name="lbl_26_06_2021">26/06/2021</string>
+<string name="lbl_enter_email_id">Enter Email Id</string>
+<string name="lbl_last_name">Last Name</string>
+<string name="lbl_karanganyar">Karanganyar</string>
+<string name="lbl_about_teeth">About Teeth</string>
+<string name="lbl_teeth_care">Teeth Care</string>
+<string name="msg_enter_first_nam">Enter First Name</string>
+<string name="msg_hasil_pengeceka">Hasil Pengecekan karies</string>
+<string name="lbl_select_category">Select Category</string>
+<string name="msg_drg_stevi_jess">Drg. Stevi Jessi</string>
+<string name="lbl_09_00_am">09:00 AM</string>
+<string name="msg_don_t_have_an_a2">Don\u2019t have an account?  </string>
+<string name="lbl_activity">Activity</string>
+<string name="lbl_late">Late</string>
+<string name="msg_search_doctor">Search doctor, caries, articles...</string>
+<string name="msg_the_25_healthie2">The 25 Healthiest 
+Fruits You Can Eat, 
+According to a Nutritionist</string>
+<string name="lbl_completed">Completed</string>
+<string name="msg_a_pertama_terg">A. Pertama tergantung  untuk apa anda mengguna</string>
+<string name="lbl_jun_10_2021">Jun 10, 2021 </string>
+<string name="lbl_password">Password</string>
+<string name="lbl_1_5km_away">1,5km away</string>
+<string name="msg_write_your_ques">Write Your Question / Query Here</string>
+<string name="lbl_enter_password">Enter Password</string>
+<string name="lbl_selamat_datang">Selamat Datang,</string>
+<string name="msg_green_apples_ha">Green apples have less sugar and carbs, and more fiber, protein, potassium, iron, and vitamin K, taking the lead as a healthier variety, although the differences are ever so slight.</string>
+<string name="lbl_enter_last_name">Enter Last Name</string>
+<string name="msg_agus_s_scan_res">Agus\u2019s Scan Result</string>
+<string name="msg_website_terms_a">"Website Terms and Conditions of Use
+1. Terms
+By accessing this Website, accessible from Confidents.com, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.
+2. Use License
+Permission is granted to temporarily download one copy of the materials on Confidents's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+modify or copy the materials;
+use the materials for any commercial purpose or for any public display;
+attempt to reverse engineer any software contained on Confidents's Website;
+remove any copyright or other proprietary notations from the materials; or
+transferring the materials to another person or "mirror" the materials on any other server.
+This will let Confidents to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you "</string>
+<string name="msg_how_can_i_order">How Can I Order Grocery Online?</string>
+<string name="lbl_6_min_read">6 min read</string>
+<string name="msg_drg_ali_imron">Drg. Ali Imron, Sp.KG</string>
+<string name="lbl_4_7">4,7</string>
+<string name="lbl_4_9">4,9</string>
+<string name="msg_the_25_healthie">The 25 Healthiest Fruits You Can Eat, According to a Nutritionist</string>
+<string name="lbl_4_8">4,8</string>
+<string name="msg_traditional_her">Traditional Herbal Medicine Treatments for COVID-19</string>
+<string name="lbl_log_in">Log in</string>
+<string name="lbl_create_account">Create Account</string>
+<string name="msg_agus_wahyu_usti">Agus Wahyu Ustinov</string>
+<string name="lbl_see_all">See all</string>
+<string name="lbl_800m_away">800m away</string>
+<string name="lbl_jun_9_2021">Jun 9, 2021 </string>
+<string name="msg_drg_maria_elen">Drg. Maria Elena</string>
+<string name="lbl_sign_up">Sign up.</string>
+<string name="msg_saya_sudah_memb">Saya Sudah membaca dan menerima</string>
+<string name="lbl_9_00_pm">9:00 PM</string>
+<string name="lbl_10_30_am">10:30 AM</string>
+<string name="lbl_doctor_detail">Doctor detail</string>
+<string name="lbl_profile">Profile</string>
+<string name="lbl_submit">Submit</string>
+<string name="msg_have_an_account2">Have an account?</string>
+<string name="msg_related_article">Related Articles</string>
+<string name="lbl_drg_gerty_cori">Drg. Gerty Cori</string>
+<string name="msg_brush_your_teet">Brush your teeth before bed</string>
+<string name="msg_gigi_ini_terind">Gigi ini terindikasi memiliki karies</string>
+<string name="lbl_8_min_read">8 min read</string>
+<string name="lbl_fulan_bin_fulan">Fulan bin Fulan</string>
+<string name="lbl_email">Email</string>
+<string name="lbl_faqs">FAQs</string>
+<string name="msg_not_listed_your">Not Listed Your Question/Query? </string>
+<string name="lbl_yh">YH</string>
+<string name="lbl_28_may_2023">28 May 2023</string>
+<string name="lbl_2km_away">2km away</string>
+<string name="lbl_5_min_read2">5 min read</string>
+<string name="lbl_mobile_number">Mobile Number</string>
+<string name="msg_enter_your_emai">Enter Your Email</string>
+<string name="msg_terms_of_servic">Terms of Service</string>
+<string name="lbl_5min_read">5min read</string>
+<string name="lbl_welcome_to">Welcome to </string>
+<string name="lbl_covid_19">Covid-19</string>
+<string name="lbl_help">Help</string>
+<string name="msg_drg_ali_imron2">Drg. Ali Imron, Sp.KG </string>
+<string name="msg_drg_ali_imron3">Drg. Ali Imron, Sp.KG adalah seorang Dokter Gigi Spesialis Konservasi Gigi, dimana salah satu tempat praktik Beliau saat ini berada di rumah sakit Orthopedi Prof. Dr. R. Soeharso Kartasura Sukoharjo.</string>
+<string name="lbl_sukoharjo">Sukoharjo</string>
+<string name="msg_search_articles">Search articles, news...</string>
+<string name="msg_bagaimana_cara">Bagaimana cara menggunakan aplikasi ini ?</string>
+<string name="lbl_remember_me">Remember me</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_phone_nu">Please enter valid phone number</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+</resources>
