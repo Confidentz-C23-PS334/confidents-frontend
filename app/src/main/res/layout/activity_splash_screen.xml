@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="splashScreenVM" type="com.confidents.app.modules.splashscreen.data.viewmodel.SplashScreenVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameSplashScreen"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylelight_blue_100">
+        <ImageView android:id="@+id/imageL5"
+            android:layout_gravity="top|center"
+            android:layout_height="@dimen/_252pxh"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_62pxh"
+            android:layout_marginStart="@dimen/_62pxh"
+            android:layout_marginTop="@dimen/_230pxv"
+            android:layout_width="@dimen/_235pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_l5"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_l5"/>
+    </FrameLayout>
+</layout>

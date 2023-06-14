@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearTrendingArticl"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical" style="@style/groupStylecornerRadius_1">
+        <ImageView android:id="@+id/imageP3XCTOZZEJKGRER"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_94pxh"
+            android:layout_marginEnd="@dimen/_7pxh"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="@dimen/_138pxh"
+            android:scaleType="fitXY" cornerRadius="@{@dimen/_10pxh}"
+            imageRes="@{@drawable/img_p3xctozzejkgrer}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_p3xctozzejkgrer"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtCovidnineteen"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_13pxh"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@string/lbl_covid_19"
+            style="@style/txtIntermedium9_2" tools:text="@string/lbl_covid_19"/>
+        <TextView android:id="@+id/txtDescription"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:text="@string/msg_comparing_the"
+            style="@style/txtIntersemibold12" tools:text="@string/msg_comparing_the"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearRowdate"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <TextView android:ellipsize="end" android:id="@+id/txtDate"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_weight="0.53" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_jun_12_2021"
+                style="@style/txtIntermedium9_1" tools:text="@string/lbl_jun_12_2021"/>
+            <View
+                android:background="@drawable/rectangle_bg_gray_500_radius_1"
+                android:id="@+id/viewEllipseEleven"
+                android:layout_height="@dimen/_2pxh"
+                android:layout_marginBottom="@dimen/_4pxv"
+                android:layout_marginStart="@dimen/_4pxh"
+                android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_2pxh"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtTime"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_marginStart="@dimen/_4pxh"
+                android:layout_weight="0.45" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@string/lbl_6_min_read"
+                style="@style/txtIntermedium9_2" tools:text="@string/lbl_6_min_read"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

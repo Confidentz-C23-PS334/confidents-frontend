@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="settignsVM" type="com.confidents.app.modules.settigns.data.viewmodel.SettignsVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackmv5bm2zlmtm2njc"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_44pxv" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearColumnmv5bm2zlmtm2njc"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <ScrollView android:clipToPadding="false"
+                android:fillViewport="true"
+                android:id="@+id/scrollViewScrollview"
+                android:layout_height="match_parent"
+                android:layout_weight="1" android:layout_width="match_parent">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearSettigns"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <FrameLayout android:id="@+id/frameProfilephotog"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_80pxv"
+                        android:layout_marginEnd="@dimen/_98pxh"
+                        android:layout_marginStart="@dimen/_98pxh" android:layout_width="@dimen/_80pxh">
+                        <ImageView
+                            android:id="@+id/imageMV5BM2ZlMTM2Njc"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_80pxh"
+                            android:layout_width="@dimen/_80pxh"
+                            android:scaleType="centerCrop"
+                            circular="@{true}"
+                            imageRes="@{@drawable/img_mv5bm2zlmtm2njc}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_mv5bm2zlmtm2njc"/>
+                        <ImageButton
+                            android:background="@drawable/rectangle_bg_white_a700_radius_8"
+                            android:id="@+id/btnSettings"
+                            android:layout_gravity="bottom|end"
+                            android:layout_height="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_5pxv"
+                            android:layout_marginEnd="@dimen/_4pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="@dimen/_16pxh"
+                            android:paddingHorizontal="@dimen/_3pxh"
+                            android:paddingVertical="@dimen/_3pxv"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/img_settings" tools:ignore="ContentDescription"/>
+                    </FrameLayout>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtAgusWahyuUsti"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_97pxh"
+                        android:layout_marginStart="@dimen/_98pxh"
+                        android:layout_marginTop="@dimen/_22pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{settignsVM.settignsModel.txtAgusWahyuUsti}"
+                        style="@style/txtIntersemibold18_1" tools:text="@string/msg_agus_wahyu_usti"/>
+                    <FrameLayout android:gravity="start"
+                        android:id="@+id/frameStackgroupfour"
+                        android:layout_height="@dimen/_459pxv"
+                        android:layout_marginTop="@dimen/_140pxv" android:layout_width="match_parent">
+                        <LinearLayout
+                            android:id="@+id/linearColumngroupfour"
+                            android:layout_gravity="top|start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical" style="@style/groupStylewhite_4">
+                            <LinearLayout
+                                android:id="@+id/linearHistory"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_31pxv"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+                                <LinearLayout
+                                    android:id="@+id/linearRowgroupfour"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.93"
+                                    android:layout_width="0dp" android:orientation="horizontal">
+                                    <ImageButton
+                                    android:background="@drawable/rectangle_bg_bluegray_50_radius_21_5"
+                                    android:id="@+id/btnGroupFour"
+                                    android:layout_height="@dimen/_43pxh"
+                                    android:layout_width="@dimen/_43pxh"
+                                    android:paddingHorizontal="@dimen/_9pxh"
+                                    android:paddingVertical="@dimen/_9pxv"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/img_group4" tools:ignore="ContentDescription"/>
+                                    <TextView android:ellipsize="end"
+                                    android:id="@+id/txtHistory"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_10pxv"
+                                    android:layout_marginStart="@dimen/_18pxh"
+                                    android:layout_marginTop="@dimen/_12pxv"
+                                    android:layout_weight="0.58"
+                                    android:layout_width="0dp"
+                                    android:singleLine="true"
+                                    android:text="@{settignsVM.settignsModel.txtHistory}"
+                                    style="@style/txtIntersemibold16" tools:text="@string/lbl_activity"/>
+                                </LinearLayout>
+                                <ImageView
+                                    android:id="@+id/imageArrowright"
+                                    android:layout_height="@dimen/_16pxh"
+                                    android:layout_marginBottom="@dimen/_13pxv"
+                                    android:layout_marginStart="@dimen/_197pxh"
+                                    android:layout_marginTop="@dimen/_14pxv"
+                                    android:layout_width="@dimen/_9pxh"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/img_arrowright"
+                                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright"/>
+                            </LinearLayout>
+                            <View
+                                android:background="@color/bluegray_50"
+                                android:id="@+id/lineDividerlineFour"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_height="@dimen/_1pxv"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_13pxv" android:layout_width="@dimen/_335pxh"/>
+                            <LinearLayout
+                                android:id="@+id/linearRowarrowrightOne"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_13pxv"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+                                <LinearLayout
+                                    android:id="@+id/linearRowchat"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.92"
+                                    android:layout_width="0dp" android:orientation="horizontal">
+                                    <ImageButton
+                                    android:background="@drawable/rectangle_bg_bluegray_50_radius_21_5"
+                                    android:id="@+id/btnChat"
+                                    android:layout_height="@dimen/_43pxh"
+                                    android:layout_width="@dimen/_43pxh"
+                                    android:paddingHorizontal="@dimen/_10pxh"
+                                    android:paddingVertical="@dimen/_10pxv"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/img_chat" tools:ignore="ContentDescription"/>
+                                    <TextView android:ellipsize="end"
+                                    android:id="@+id/txtFAQs"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_11pxv"
+                                    android:layout_marginStart="@dimen/_18pxh"
+                                    android:layout_marginTop="@dimen/_11pxv"
+                                    android:layout_weight="0.49"
+                                    android:layout_width="0dp"
+                                    android:singleLine="true"
+                                    android:text="@{settignsVM.settignsModel.txtFAQs}"
+                                    style="@style/txtIntersemibold16" tools:text="@string/lbl_faqs"/>
+                                </LinearLayout>
+                                <ImageView
+                                    android:id="@+id/imageArrowrightOne"
+                                    android:layout_height="@dimen/_16pxh"
+                                    android:layout_marginBottom="@dimen/_13pxv"
+                                    android:layout_marginStart="@dimen/_216pxh"
+                                    android:layout_marginTop="@dimen/_14pxv"
+                                    android:layout_width="@dimen/_9pxh"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/img_arrowright"
+                                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright"/>
+                            </LinearLayout>
+                            <View
+                                android:background="@color/bluegray_50"
+                                android:id="@+id/lineDividerlineThree"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_height="@dimen/_1pxv"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_13pxv" android:layout_width="@dimen/_335pxh"/>
+                            <LinearLayout
+                                android:id="@+id/linearRowarrowrightTwo"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_195pxv"
+                                android:layout_marginEnd="@dimen/_20pxh"
+                                android:layout_marginStart="@dimen/_20pxh"
+                                android:layout_marginTop="@dimen/_13pxv"
+                                android:layout_width="match_parent" android:orientation="horizontal">
+                                <LinearLayout
+                                    android:id="@+id/linearRowsignal"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.92"
+                                    android:layout_width="0dp" android:orientation="horizontal">
+                                    <ImageButton
+                                    android:background="@drawable/rectangle_bg_bluegray_50_radius_21_5"
+                                    android:id="@+id/btnSignal"
+                                    android:layout_height="@dimen/_43pxh"
+                                    android:layout_width="@dimen/_43pxh"
+                                    android:scaleType="fitCenter"
+                                    android:src="@drawable/img_signal_cyan_300" tools:ignore="ContentDescription"/>
+                                    <TextView android:ellipsize="end"
+                                    android:id="@+id/txtHelp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_10pxv"
+                                    android:layout_marginStart="@dimen/_18pxh"
+                                    android:layout_marginTop="@dimen/_12pxv"
+                                    android:layout_weight="0.46"
+                                    android:layout_width="0dp"
+                                    android:singleLine="true"
+                                    android:text="@{settignsVM.settignsModel.txtHelp}"
+                                    style="@style/txtIntersemibold16" tools:text="@string/lbl_help"/>
+                                </LinearLayout>
+                                <ImageView
+                                    android:id="@+id/imageArrowrightTwo"
+                                    android:layout_height="@dimen/_16pxh"
+                                    android:layout_marginBottom="@dimen/_13pxv"
+                                    android:layout_marginStart="@dimen/_221pxh"
+                                    android:layout_marginTop="@dimen/_14pxv"
+                                    android:layout_width="@dimen/_9pxh"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/img_arrowright"
+                                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View android:id="@+id/viewGroup10205"
+                            android:layout_gravity="bottom|start"
+                            android:layout_height="@dimen/_57pxv"
+                            android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_375pxh"/>
+                    </FrameLayout>
+                </LinearLayout>
+            </ScrollView>
+            <FrameLayout android:id="@+id/frameBottombar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+                <LinearLayout android:id="@+id/linearRowhome"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:layout_marginTop="@dimen/_7pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <LinearLayout android:id="@+id/linearColumnhome"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageHome"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_22pxh"
+                            android:layout_width="@dimen/_19pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_home_white_a700"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_home_white_a700"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtHomeOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{settignsVM.settignsModel.txtHomeOne}"
+                            style="@style/txtIntermedium8_2" tools:text="@string/lbl_home"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearColumnalarm"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageAlarm"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_22pxh"
+                            android:layout_width="@dimen/_17pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_alarm"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_alarm"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtMessages"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{settignsVM.settignsModel.txtMessages}"
+                            style="@style/txtIntermedium8_2" tools:text="@string/lbl_reminder"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearColumnuntitledremove"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageUntitledremove"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_23pxh"
+                            android:layout_width="@dimen/_18pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_untitledremove"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_untitledremove"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtAppointment"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{settignsVM.settignsModel.txtAppointment}"
+                            style="@style/txtIntermedium8_2" tools:text="@string/lbl_article"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearColumnuser"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageUser"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_22pxh"
+                            android:layout_width="@dimen/_21pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_user_cyan_300"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_user_cyan_300"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtProfile"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{settignsVM.settignsModel.txtProfile}"
+                            style="@style/txtIntermedium8" tools:text="@string/lbl_profile"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:backgroundTint="@color/white_A700"
+            android:id="@+id/floatingBtnFloatingactionbutton"
+            android:layout_gravity="bottom|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginEnd="@dimen/_161pxh"
+            android:layout_marginStart="@dimen/_161pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="wrap_content"
+            app:fabCustomSize="@dimen/_52pxh"
+            app:srcCompat="@drawable/img_camera" app:tint="@color/cyan_300"/>
+    </FrameLayout>
+</layout>

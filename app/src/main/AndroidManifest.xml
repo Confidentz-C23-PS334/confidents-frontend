@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.confidents.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.confidents.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity android:exported="true"
+            android:name="com.confidents.app.modules.drlist.ui.DrListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.confidents.app.modules.articledetails.ui.ArticleDetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.splashscreen.ui.SplashScreenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.faqs.ui.FaqsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.signup.ui.SignupActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.settigns.ui.SettignsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.drdetails.ui.DrDetailsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.help.ui.HelpActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.history.ui.HistoryActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.scanresult.ui.ScanResultActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.tos.ui.TosActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.confidents.app.modules.camera.ui.CameraActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>
